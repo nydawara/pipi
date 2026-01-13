@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PIPI | Official Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background: #0b1c2d;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo img {
+      max-height: 50px;
+    }
+
+    .org-name {
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      white-space: nowrap;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1600x600');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 120px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #d4af37;
+      color: #000;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #b8962e;
+    }
+
+    section {
+      padding: 60px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: 32px;
+      color: #0b1c2d;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #0b1c2d;
+    }
+
+    footer {
+      background: #0b1c2d;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+        <img src="logo.png" alt="PIPI Logo" />
+        <span class="org-name">Platform for Innovation and Productive Ideas (PIPI)</span>
+      </div>
+    <nav>
+      <!-- Navigation Menu -->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Platform for Innovation and Productive Ideas (PIPI)</h1>
+    <p>Transforming ideas into impactful solutions using Science and Technology</p>
+    <a href="about.html" class="btn">Learn More</a>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-title">
+      <h2>About PIPI</h2>
+    </div>
+    <p>
+      The Platform for Innovation and Productive Ideas (PIPI) is a dedicated organization focused on fostering creativity, collaboration, and the transformation of ideas into actionable outcomes.
+      PIPI operates as an energy research-driven initiative, delivering workable solutions to societal, humanitarian, and environmental challenges.
+    </p>
+    <p>
+      <strong>Vision:</strong> To end energy poverty across Africa using Science and Technology as a tool.
+    </p>
+    <p>
+      <strong>Mission:</strong> To create an inclusive environment where individuals, teams, and communities can generate, share, refine, and implement innovative ideas that drive progress and efficiency.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="section-title">
+      <h2>Our Objectives</h2>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>Idea Generation</h3>
+        <p>Encouraging open ideation and brainstorming to spark novel and impactful solutions.</p>
+      </div>
+      <div class="card">
+        <h3>Productive Innovation</h3>
+        <p>Transforming ideas into tangible results such as new products, services, and process improvements.</p>
+      </div>
+      <div class="card">
+        <h3>Collaboration</h3>
+        <p>Facilitating collaboration among innovators, entrepreneurs, experts, and organizations.</p>
+      </div>
+      <div class="card">
+        <h3>Resources & Guidance</h3>
+        <p>Providing tools, mentorship, and guidance for evaluating, validating, and executing ideas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="section-title">
+      <h2>Activities & Features</h2>
+    </div>
+    <ul style="max-width:800px;margin:auto;line-height:1.8;">
+      <li>Idea challenges, technical paper contests, workshops, and conferences</li>
+      <li>Digital platform for submitting, discussing, and voting on ideas</li>
+      <li>Research support and end-to-end innovation management</li>
+      <li>Focus on both incremental improvements and breakthrough innovations</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 PIPI. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

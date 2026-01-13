@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About PIPI | Platform for Innovation and Productive Ideas</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      line-height: 1.7;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background: #0b1c2d;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo img {
+      max-height: 50px;
+      object-fit: contain;
+    }
+
+    .org-name {
+      font-size: 16px;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .page-header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1600x400');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .page-header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 40px;
+    }
+
+    section h2 {
+      color: #0b1c2d;
+      margin-bottom: 15px;
+      font-size: 28px;
+    }
+
+    section p {
+      margin-bottom: 20px;
+    }
+
+    .values {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .value-card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .value-card h3 {
+      color: #0b1c2d;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #0b1c2d;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .page-header h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="PIPI Logo" />
+      <span class="org-name">Platform for Innovation and Productive Ideas (PIPI)</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Programs.html">Programs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <h1>About PIPI</h1>
+    <p>Driving innovation, research, and productive ideas for sustainable impact</p>
+  </div>
+
+  <!-- About Content -->
+  <section>
+    <h2>Who We Are</h2>
+    <p>
+      The Platform for Innovation and Productive Ideas (PIPI) is an innovation-driven organization dedicated to nurturing creativity and transforming ideas into impactful, real-world solutions. We operate at the intersection of science, technology, research, and community development.
+    </p>
+
+    <h2>Our Vision</h2>
+    <p>
+      To end energy poverty across Africa by leveraging science and technology as tools for sustainable development and inclusive growth.
+    </p>
+
+    <h2>Our Mission</h2>
+    <p>
+      To create an inclusive and collaborative environment where individuals, teams, and institutions can generate, refine, and implement innovative ideas that address societal, humanitarian, and environmental challenges.
+    </p>
+
+    <h2>Our Core Values</h2>
+    <div class="values">
+      <div class="value-card">
+        <h3>Innovation</h3>
+        <p>We promote creativity and forward-thinking approaches to solving complex problems.</p>
+      </div>
+      <div class="value-card">
+        <h3>Collaboration</h3>
+        <p>We believe strong partnerships drive impactful and sustainable solutions.</p>
+      </div>
+      <div class="value-card">
+        <h3>Integrity</h3>
+        <p>We operate with transparency, accountability, and ethical responsibility.</p>
+      </div>
+      <div class="value-card">
+        <h3>Impact</h3>
+        <p>Our focus is on measurable outcomes that improve lives and communities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Platform for Innovation and Productive Ideas (PIPI). All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

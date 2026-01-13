@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programs | Platform for Innovation and Productive Ideas (PIPI)</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #0b1c2d;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo img {
+      max-height: 50px;
+    }
+
+    .org-name {
+      font-size: 16px;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .page-header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1600x400');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .page-header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 40px;
+    }
+
+    section h2 {
+      color: #0b1c2d;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .programs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .program-card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .program-card h3 {
+      color: #0b1c2d;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #0b1c2d;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .page-header h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="PIPI Logo" />
+      <span class="org-name">Platform for Innovation and Productive Ideas (PIPI)</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <h1>Our Programs</h1>
+    <p>Driving innovation through research, collaboration, and action</p>
+  </div>
+
+  <!-- Programs Section -->
+  <section>
+    <h2>Key Programs & Initiatives</h2>
+    <div class="programs">
+
+      <div class="program-card">
+        <h3>Idea Challenge Program</h3>
+        <p>A structured platform where innovators submit ideas to solve societal and energy-related challenges, with mentorship and evaluation support.</p>
+      </div>
+
+      <div class="program-card">
+        <h3>Energy Innovation & Research</h3>
+        <p>Research-driven initiatives focused on renewable energy, clean technologies, and solutions to energy poverty across Africa.</p>
+      </div>
+
+      <div class="program-card">
+        <h3>Youth & Student Innovation</h3>
+        <p>Empowering students and young innovators through training, competitions, and hands-on innovation projects.</p>
+      </div>
+
+      <div class="program-card">
+        <h3>Capacity Building Workshops</h3>
+        <p>Workshops, seminars, and bootcamps designed to build technical, research, and entrepreneurial skills.</p>
+      </div>
+
+      <div class="program-card">
+        <h3>Community Innovation Projects</h3>
+        <p>Community-focused initiatives that apply innovation and technology to address local societal challenges.</p>
+      </div>
+
+      <div class="program-card">
+        <h3>Partnership & Collaboration Program</h3>
+        <p>Collaborative programs with institutions, researchers, NGOs, and industry partners to scale impactful solutions.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Platform for Innovation and Productive Ideas (PIPI). All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
